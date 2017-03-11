@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>VueJS Zip Code Finder</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="app" class="container">
+  <h2>Zipcode Finder</h2>
+  <div class="form">
+    <input type="text" v-model="zip" maxlength="5" placeholder="ex: 94301" />
+  </div>
+  <div class="error">{{error}}</div>
+  <div class="display">{{city}}</div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
